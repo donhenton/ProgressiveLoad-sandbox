@@ -7,8 +7,7 @@
   overflow: hidden; }
   .progressive-image img {
     opacity: 0;
-    width: 100%;
-    transition: opacity 1s linear; }
+    width: 100%; }
   .progressive-image img.loaded {
     opacity: .5; }
   .progressive-image .img-small {
