@@ -3,10 +3,12 @@
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 200px;
   overflow: hidden; }
   .progressive-image img {
     opacity: 0;
-    width: 100%; }
+    width: 100%;
+    transition: opacity 1s linear; }
   .progressive-image img.loaded {
     opacity: 1; }
   .progressive-image .img-small {
