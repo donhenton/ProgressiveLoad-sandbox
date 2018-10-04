@@ -44,28 +44,35 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/small_image/smallImageStyles.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
 
+        <!-- Add your site or application content here -->
 
-        <h2>Progressive Display Demonstrations</h2>
-        <div class="container">
-            <div class="row">
-                <ul>
-                    <li><a href="take1.html">JQuery Based</a></li>
-                    <li><a href="take2.html">Native Code Based</a></li>
-                    <li><a href="small_image.html">Small Image Based</a></li>
+        <script src="js/vendor/jquery-2.1.0.min.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/small_image/small_image.js"></script>
 
-                </ul>
+
+        <div class="demo-container">
+
+
+            <div class="progressive-image" 
+
+                 data-large-image="img/small_image/main_image.jpeg">
+
+                <img src="img/small_image/small_placeholder.jpeg" class="img-small">
+                <div style="padding-bottom: 66.6%;"> 
+
+                </div>
+
+
+
             </div>
+
         </div>
-
-
-
-
-
-
 
 
     </body>
