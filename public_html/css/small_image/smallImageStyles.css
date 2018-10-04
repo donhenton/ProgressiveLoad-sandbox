@@ -10,7 +10,7 @@
     width: 100%;
     transition: opacity 1s linear; }
   .progressive-image img.loaded {
-    opacity: 1; }
+    opacity: .5; }
   .progressive-image .img-small {
     filter: blur(50px);
     /* this is needed so Safari keeps sharp edges */
@@ -18,7 +18,21 @@
 
 .demo-container {
   border: thin solid red;
+  position: relative;
   width: 50%;
   float: right; }
+  .demo-container .sample-overlay {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    top: 10%;
+    color: crimson; }
+    .demo-container .sample-overlay div {
+      margin: auto 0;
+      padding: 20px;
+      font-size: 30px; }
 
 /*# sourceMappingURL=smallImageStyles.css.map */
