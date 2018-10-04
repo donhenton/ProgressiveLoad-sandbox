@@ -22,7 +22,7 @@ let jQuery = $;
     // the supplied values do not have to be the full size of the actual image
     // just have the same aspect ratio
     
-   
+
 
     //load the placeholder
     console.log("in progressive image")
@@ -44,6 +44,7 @@ let jQuery = $;
         console.log("loaded the large img")
         $(largeImg).toggleClass('loaded');
         $(largeImg).insertAfter($small);
+        $small.css('display','none');
         $small.toggleClass('loaded')
 
       } // end large image load
